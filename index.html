@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Hong</title>
+</head>
+
+<body>
+    <!-- Encabezado de la página web -->
+    <header>
+        <!-- Titulo de la página web. -->
+        <h1>HONG</h1>
+        <!-- Menú de navegación de la página. -->
+        <!-- Se utiliza nav, ya que cada item del menu enlaza a otra pagina-->
+        <nav>
+            <!-- Ya que son varios elementos, y no están en un orden, se utiliza "ul" -->
+            <ul>
+                <!-- Dentro de ul, están los items del menu, cada uno dentro de un "li" -->
+                <li>Design / Dev</li>
+                <li>Technology</li>
+                <li>Inspiration</li>
+                <li>Social Commerce</li>
+                <li>All</li>
+                <li>Deals</li>
+            </ul>
+        </nav>
+        <!-- Para agregar una barra de busqueda, se utiliza la etiqueta "input" -->
+        <!-- Para dividir esto, y que se vea más ordenado. Se utiliza la etiqueta "div" -->
+        <div>
+            <input type="search" name="busqueda">
+            <!-- Acá se le tendría que agregar el icono de la lupa.-->
+        </div>
+    </header>
+    <!-- Se procede a la etiqueta "article", ya que es un articulo, parte de esa página web -->
+
+    <article>
+        <!-- Titulo del articulo -->
+        <h1>HTML5 Website Showcase</h1>
+
+        <!-- Existe la etiqueta "adress", la cual puede ser util para aportar info del autor del articulo -->
+        <!-- Normalmente esta etiqueta se usa dentro del footer, pero en este caso, sería utilizada acá. -->
+        <!-- Para indicar la fecha y hora de publicación, se utiliza la etiqueta "time" -->
+        <address>
+            <p> By Alvaris Falcon in Web Design. <time datetime="2018-04-09T20:00">Updated on April 9, 2018.</time></p>
+        </address>
+        <!-- De acuerdo a su definicion, la etiqueta "aside" permite a secciones, como publicidad, etc -->
+        <!-- No ser parte del documento en si. Por lo que se utiliza para elementos como la publicidad ajena al doc. -->
+
+        <aside>
+            <h1><a href="#">Live the SYKES experience</a></h1>
+            <p>Sykes El Salvador.</p>
+            <p><b>We're growing and we want you in out team. Join us now!</b></p>
+        </aside>
+        <!-- Se podría dividir el contenido dentro de "section", y dentro de la misma la etiqueta "p", pero se utilizará solo la etiqueta "p" de parrafo -->
+        <p>
+            So youve heard all rumors about HTML5 would take over Adobe Flash. While most web community argues that its possible or not,
+            you must be wondering what makes HTML5 so powerful that even giant company Apple wants to use it to replace Flash.
+        </p>
+        <p>
+            Thats why this post exist, were not going to talk about what HTML5 can do, but show live demos of magical things that HTML5
+            can achieve with other language like JavaScript, so get ready to be inspired.
+        </p>
+        <!-- Boton que despelgaría los comentarios -->
+        <button type="button" name = "comentario">Show Comments</button>
+    </article>
+    <!-- Acá finaliza todo lo que tenga que ver con el articulo. -->
+
+    <!-- Aca se pondría otro aside, en el cual se pediría el correo para suscribirse. -->
+    <aside>
+        <h1><b>Stay updated</b></h1>
+        <p>Get daily articles in your inbox for free</p>
+        <input type="email" name="correo">
+        <button type="submit">Subscribe!</button>
+    </aside>
+
+    <!-- Aside el cual contendría los demas posts que hay recientemente.-->
+    <aside>
+        <h1>You might also like</h1>
+        <section>
+            <h1>Fresh Resources for Web Designers and Developers (August 2018)</h1>
+            <p>Hongkiat Lim</p>
+            <!-- Acá iría la imagen de ese post. -->
+        </section>
+        <section>
+            <h1>"Coming Soon" Pages: lie Successful or Die Trying</h1>
+            <p>Ann Davlin</p>
+            <!-- Acá iría la imagen de ese post. -->
+        </section>
+        <section>
+            <h1>Fresh Resources for Web Designers and Developers (July 2018)</h1>
+            <p>Thoriq Firdaus</p>
+            <!-- Acá iría la imagen de ese post. -->
+        </section>
+    </aside>
+
+    <!-- Por ultimo, está el footer. En el cual se agrega la información final de la página. -->
+    <footer>
+        <p>(HKDX).All rights Reserved. 2018</p>
+        <p>Reproduction of materials found on this site, in any form, without explicit permission is prohibited. Publishing
+            policy-Privacy Policy.
+        </p>
+        <!-- Acá se agregarian unos iconos/logos -->
+        <i class="fas fa-ad"></i>
+    </footer>
+
+</body>
+
+</html>
